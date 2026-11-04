@@ -1,0 +1,32 @@
+# Dependencies and generated output
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+
+# Local tooling and working notes
+.agents/
+.claude/
+.local/
+content/
+docs/
+/*.md
+!/README.md
+
+# Private configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Unused working assets and duplicate builds
+publish/
+Images/
+Video Essays/
+*.zip
+*.mp3
+/*.mp4
+/*.png
+/*.jpg
+/*.gif
